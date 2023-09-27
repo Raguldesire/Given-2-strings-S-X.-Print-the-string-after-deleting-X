@@ -1,0 +1,7 @@
+n=list(map(str,input().split()))
+k=input()
+if k in n:
+  n.remove(k)
+  print(*n)
+else:
+  print(*n)
